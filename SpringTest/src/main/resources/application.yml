@@ -1,0 +1,12 @@
+server:
+  port: 8999      
+spring:  
+  application:
+    name: test
+  thymeleaf:
+    prefix: classpath:/public/
+    mode: LEGACYHTML5
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8901/eureka/    
